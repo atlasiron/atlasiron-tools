@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="butRefresh.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACLvI7/TpVO/2OjZP8AAAAAAAAAAAlnEP84kk//AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABXmFn/E3kX/xqeJv8jiCb/jLuO/wAAAAAfXjb/HY0p/zuT
+        Tv8AAAAAAAAAAAAAAAAAAAAAAAAAAH+zgv8wgjD/FI4n/yG0Q/8dtDb/H6Yr/z+OP/8AAAAAAAAAABVm
+        IP9Qym3/TqR5/wAAAAAAAAAAAAAAADlrO/8EWwf/HZg5/zPIZf8sxFf/JbxI/x20Nv8dlSb/XqFg/wAA
+        AAAOTBT/W/GM/zaZQP+Jx6P/AAAAAAAAAAAFSQr/BUkK/xZWFv80wGP/Nsxo/yKsQ/8IbA//BmYK/wFn
+        Af8AAAAAJFIm/0jMdP9Hw2X/b650/wAAAAAAAAAAAAAAAAAAAAAjUST/Ob1l/z7Sb/8ckC//AAAAAAAA
+        AAAAAAAAAAAAAAZIIP9AwGz/UNp7/1abYf8AAAAAAAAAAAAAAAAAAAAAG04j/0HBbP9K3Hv/Iogr/wAA
+        AAAAAAAAAAAAAAAAAAAITw7/Ob5m/1Xkhv9Hk1L/AAAAAAAAAAAAAAAAAAAAACZULv88t2L/VeSG/yaJ
+        Tf8AAAAAAAAAAAAAAAAAAAAAEHEf/zXCZP9L3Hv/VJlV/wAAAAAAAAAAAAAAAAAAAAA2YDn/LZZG/1rr
+        iv9TmVb/AAAAAAFZAf8Kew//C30T/yGmQP8zyGX/P9Jx/zSFNP8rjjL/LY80/wAAAAAAAAAARG9W/xBW
+        F/9c9I7/MI86/wAAAAArVyz/CGkP/xqtMv8lvUn/LMRX/zbMaP8joj//D3QS/16gX/8AAAAAAAAAAAAA
+        AAAbVjn/MJVJ/zSeQ/8AAAAAAAAAABNJE/8MgRf/Gq8z/yK3RP8ThyX/J2wn/2uXbv8AAAAAAAAAAAAA
+        AAAAAAAAAAAAABBMHf8ahiX/SaRr/wAAAABGZ0j/AkkF/wt9FP8RbhX/UY5T/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAFVUl/wptEf8AAAAAAAAAACtXLP8mVSb/apBs/wAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAP//AADxnwAA4I8AAIDHAAAAQwAAAEMAAMPDAADDwwAAw8MAAMIAAADCAAAA4wEAAPEH
+        AAD5j////////w==
+</value>
+  </data>
+  <data name="butConfigure.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAImIjASclJV4d2Rjy2hiZMifn583AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAPr6+irIvr0GAAAAAAAAAAB7en4Pnnp4651fV/9qV1f/lZeZs52bmhQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD08/I1n4eCR181MpReR0eUZ1hWpr5yXv/eiHX/gFZN/2BfYP9vYWJhWkREMHZ1
+        d5SsrKxWAAAAAAAAAAAAAAAAiHp5M7N/bN3AfGH/qHBb/8CDcP/djnf/3I15/8mBb/+MXVL/cklD6YRR
+        S+5qWFX/h4iIngAAAAAAAAAAAAAAAGRTUkGbblzy8q6J/+urif/Tk3r/yYVy/8F/bv/EfGf/0Yd0/92P
+        fP/jjnj/i15X/5OVlZQAAAAAAAAAAAAAAAAAAAAAkmhT3vC0jf/QjXH/zJmL/+rJw//u19P/1Kyc/7x5
+        Zv/Qi3f/yoBs/35UUv+rqquPAAAAAAAAAAB5bHAfm3hvL+23jeXsr4f/xop3/+bLyP/Gp53/rpGE/9bJ
+        yP/Tta3/wHpk/9GNeP97WVP/k5GS4ouNjUIAAAAAsJCDzsCahPr2w5j+2pt3/96xqf/AinnudkMtjFY2
+        Kop5SDLJ1L+6/9CVgv/YlXb/u4Fs/21PS/9wbGzTAAAAAJp2ZOTYtZH/9cih/9maev/bq6b/mnJq1wAA
+        AAAAAAAAYkdAgMamof/VpZn/05l5///Mof/Ml3//dWpq4AAAAAB3XE9gnHlizdWsjP/Ym3v/4bi2/5ln
+        Vdt0SDcKb11XBZFWPYzdubX/z5qN/+Kskf/kup7+pX1s+oiAfYAAAAAAAAAAAGBQTmSukX/25bGT/9Wj
+        mf+9in76jlxL2oJlXNrCh3Tu37Kr/9KVf//2yKr/nnty5YFfWC8AAAAAAAAAAAAAAABmWVwOtZaQ4vzd
+        xf/Wnob/z5aH/9akm//VoZf/16Wf/8+Ugf/22ML/1LKj/2NYWeAAAAAAAAAAAAAAAAAAAAAAgGdjjNu+
+        t/3+6OD/+t/V/96smP/UmoT/2J6H/9igiP/0zrf/+evY/9u0pf9mVVTnYF5fCwAAAAAAAAAAAAAAAG5j
+        YYmah4T/kn178JJ5dPDLsar/++DZ//zg1v/kxr3/p4mC5J6Gfv2yk4v/jXp51X15ewoAAAAAAAAAAAAA
+        AABlZWUMXFZWjFxQTzZYSEU2cWdn6enNxv/vzsX/knh1yH5iYBZdRD9bW0VAlHp0djMAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGZlZ558bm3/jHp5/3FhYlcAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/n////w////gN///wAP//8AD///AA///wAP//wAB//8DAf//gwH//8AH///AB///gAf//4AH
+        ///Yb///+P///w==
+</value>
+  </data>
+  <data name="uiButton1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACzdGX/eTIi/3ItH/9sKRz/aCYa/2YlGf9lJBn/ZSQZ/2UkGf9lJBn/ZSQZ/wAA
+        AABsOycMAAAAAAAAAAAAAAAAvH1u/7Cjov+nlZX/noiH/5Z8fP+QdXT/jXBv/4xtbf+KbGv/imxr/2Uk
+        Gf8AAAAARSYZzEIkGBIAAAAAAAAAAMiKef99eXj/5djY/9rIyP9sYGD/xquq/76fnv9kTkv/jV5S/3dS
+        Sf9SJRn/SCcamUIkGP83HhTVOh8VGAAAAADQlIL/ysrK/8XDw/++ubn/t66t/66goP+llJP/oIR//5pU
+        OP9+RS7/cj4p/3U/Kv9uPCj/WTAg/0spG95YMCB905mJ/42Njf///////////4SEhP/z7e3/5tra/3pr
+        aP/Ahm7/unph/7ZxVv+0blL/rWFD/5VRNv9/RS7/gEYuf9Wfj//R0dH/0NDQ/9DQ0P/Ozs7/zMzM/8fG
+        xv++sq//06qa/9SsnP/SqJf/0KST/8aSff+3dVr8q14/ZgAAAADXo5T/m5ub////////////l5eX////
+        ////////hYWF//Dp6f/k1tb/fzYl/wAAAADOoY/5v4NrWgAAAAAAAAAA2aeZ/9mpm//aqpz/2qmb/9mn
+        mf/Xo5T/1Z6P/9KYh//PkYD/xYd2/4c7Kf8AAAAAx5N+SwAAAAAAAAAAAAAAANqqnf/ijHT/4412/+KM
+        dP/iiXL/4YVt/99/Zf/deF3/23BT/9loSf+QQS3/AAAAAAAAAAAAAAAAAAAAAAAAAADbrJ//3K6h/9yu
+        of/crqH/26yf/9qqnP/Yppj/1qKT/9Sdjf/Sl4f/0JOC/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAP//AAD//wAAAB8AAAAXAAAAAwAAAAEAAAABAAAAAwAAABcAAAAfAAAAHwAAAB8AAP//
+        AAD//////////w==
+</value>
+  </data>
+  <data name="butAssays.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACTWwD/klcA/5BVAP+PUgD/jlAA/41OAP+MTQD/jEwA/4xMAP+MTAD/jEwA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAxl0A//Xhzf/y2cD/qqr//+7Mqv/sx6H/68Ob/+rAlv/qv5T/6b6S/4xM
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAAAMhgAP/XvKL/17yi/6qq///XvKL/17yi/9e8ov/XvKL/17yi/9e8
+        ov+MTAD/AAAAAAAAAAAAAAAAAAAAAAAAAADLZAD/+/Lq//jr3f+qqv//89rC//DTtf/uzKr/7Meh/+vC
+        mv/qwJb/jEwA/wAAAAAAAAAAAAAAAAAAAAAAAAAAzm0M/9e8ov/XvKL/qqr//9e8ov/XvKL/17yi/9e8
+        ov/XvKL/17yi/4xNAP8AAAAAAAAAAAAAAAAAAAAAAAAAANN8Jf///////////6qq///57uL/9uPR//LZ
+        wP/w0bL/7cqn/+zFnv+NTgD/AAAAAAAAAAAAAAAAAAAAAAAAAADYiz7/17yi/9e8ov+qqv//17yi/9e8
+        ov/XvKL/17yi/9e8ov/XvKL/jU8A/wAAAAAAAAAAAAAAAAAAAAAAAAAA3ZhU////////////qqr/////
+        ///89e//+Onb//TeyP/x1Lj/7s2r/45QAP8AAAAAAAAAAAAAAAAAAAAAAAAAAOGkaP/XvKL/17yi/6qq
+        ///XvKL/17yi/9e8ov/XvKL/17yi/9e8ov+PUgD/AAAAAAAAAAAAAAAAAAAAAAAAAADkrnj/////////
+        //+qqv/////////////KYwD/x14A/8RaAP/CVgD/kFQA/wAAAAAAAAAAAAAAAAAAAAAAAAAA5rWE/9e8
+        ov/XvKL/qqr//9e8ov/XvKL/zGYA/8jBuv/Guaz/klkA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOi7
+        jv///////////6qq/////////////89uDv/Kx8P/ll8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADpvpL///////////+qqv/////////////Rdhv/mWYA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA6b6T/+i7jv/mtYT/46tz/96dXP/ZjkL/1H0n/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAMAHAADABwAAwAcAAMAHAADABwAAwAcAAMAHAADABwAAwAcAAMAHAADADwAAwB8AAMA/
+        AADAf////////w==
+</value>
+  </data>
+  <data name="butLogging.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAACNAAAA3QAAAJoAAABTAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA01Cdof9Bg4f/HkFD/wIFBf8AAADNAAAAiAAAADoAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQICP9+7fX/fvn//3X3/v9j3OL/R6is/ytrbv8QKSr/AAAA+QAA
+        AL8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFYoRkf/kf7//3nn7f8eNDX/T4mM/wUHB/9h7PT/W+nx/0i/
+        xv8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACdT4eK/5T///9/6/H/dubs/23i6P8UHyD/GyUm/z4v
+        K/9le3b/AAAAyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEB437Q1P+i////kP///37s8v9z5ev/a+Dn/w4O
+        Dv9MOjX/jVdI/wAAAH8AAAAAAAAAAAAAAAAAAAAAAAAAHw4WFv+R7vP/HjQ1/0+JjP9z0db/g/j//3/8
+        //8SExP/wqCW/z4vK//Jpp3/AAAAAAAAAAAAAAAAAAAAAAAAAGc+YmP/tP///2iprP8pREX/BAYG/wUL
+        DP8lSkz/b29v/1BBPv/CnpT/LhwX/56enoCenp6znp6e2QAAAAAAAACwfMXJ/0Rpav89ZGb/cbzA/4vv
+        9P972d3/R4GE/3+PkP9fW1n/roh+/4hnXv9kTEX/zMzM/yUlJf+enp6zAAAA/IfW2v+b9vr/V4mM/x8w
+        Mf8BAQH/Dx0d/z91d/+M////e4iI/ykhH//NqZ//MyMg/7Oppv96dXP/ZWVl/wAAAMEAAAD5IjU2/16U
+        l/+I29//l/b8/3bFyf9BbnH/et/l/wsVFv96dXP/iGde/8KWif8bFBL/4+Pj/yUlJf8AAAAAAAAAAAAA
+        AEIAAACIAAAAzQQGBv8yVFX/XqOm/2SxtP8BAQHknp6egBsUEv/InZL/kmNW/2VlZf83Nzf/AAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAANAAAAUwAAAJoAAADdAAAAowAAAACRi4r/TDo1/7mhm/8FBwf/ZWVl/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAnp6egHd3d/8ODg7/BQcH/zc3
+        N/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnp6egC4u
+        Lv+enp7b/////8f////Af///wA///8AP//+AD///gB///4AP//+AAf//AAD//wAA//8AAP//4AD///4g
+        ////4P////j//w==
+</value>
+  </data>
+  <data name="butChainOfCustody.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAIpYOP+BTzL/fEku/3hFLP92Qyr/AAAAAAAAAAAAAAAAf0ww/3xJL/94RSv/dUIp/wAA
+        AAAAAAAAAAAAAJ5tRv+vlIj/qYyA/6WGe/+ffnT/mHVr/39MMP+ATjH/hVQ1/6KCeP+ig3j/nHtw/5Jt
+        Y/93RCv/AAAAALaHV//Nva//dkof/3RIHv+HYUD/q5J+/2xAGv9pPhn/aj4a/2xBG/+skn//lnhg/5Bx
+        W/+FZFD/mndt/4BOMf/DnHT/3NDD/4lgM//gyLb/17io/5t/Yf/49ef/+OfX//vby//v17//gVQl//7+
+        /v/28vL/mHtj/7GXi/+QXzz/zq+O/+Pa0P+gf1v/l3JL/6WFZP/Lu6b/oIRl/6OIa/+njXH/qZB0/9DB
+        r/+Ubkb/i2I3/4BTI//Jt6n/o3RK/6KTgxXWvKH/59/W/+Tb0v/i2M3/4NfM/+DXzP/MrIn/0LKS/9K1
+        l//l3dP/49rQ/+DWy//c0cT/uo5f/wAAAACpmIZLoGcs/9jApf/WvKH/07aY/9Cykv/Or47/P614/wC4
+        e/8Aunf/176j/9S5nP/PsI//x6R+/wAAAAAAAAAApoxzz5RRC//Dfzn/5ZZN/72aXP9piln/j6Zm/7vC
+        dv95tXH/kq5o/7uPSv+4bir/kVQW/76uncIAAAAAAAAAAI5qRfmKSAX/uG4o/3NvRf9QcFr/loRO/8mu
+        Zv/Num//36xh/+6UTf/Oezf/pmQh/4RFCv+zmIDnAAAAAAAAAACNZ0XwgzoA/3pUGv8PbWb/LH1l/5yB
+        PP+QhET/1pJL/9qOSP/BfDj/qWkm/5FREf9zQQj/pqCF2wAAAAAAAAAAooNr+3ktAP9GUSn/AnCG/wWK
+        c/8AjEj/D45Q/5luL/++aif/omMi/45TE/+FPQH/XFIV/566o+sAAAAAAAAAAM29s857Ngj/NVs//xF9
+        nv8hoJf/GKxn/xeqZP9Di0n/jFIR/4tLCP+AQgH/eDMA/2dzRf/I2NHAAAAAAAAAAADg394ulGI902RX
+        Jv9Nn6n/Rrqs/0DCbv9Vvmj/YuKb/1qDNP+OUwD/mlAE/2pQFf+Poous5efrHQAAAAAAAAAAAAAAAJx5
+        Xjd+VSTYda2e/3zqw/+H4YT/q8Zm/7Dolv+4tVj/wIw6/5NzM/9ie02rl7KiDgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAclsyOFqkidGMwZf/vc2Q/97os//06Ln/3r6S/6eMXv90gl2xXYdgDgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABim4EeiYpueqiQduOnrZTzyLes86WSfcyMelxLfZJ3FgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAwcP//4AB//8AAP//AAD//wAA//+AAf//gAP//wAD//8AA///AAP//wAD//8AA///gAf//8AP
+        ///gH///+H///w==
+</value>
+  </data>
+  <data name="gridBlastholes_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;gcv_Hole_Collars&lt;/Key&gt;&lt;Caption&gt;gcv_Hole_Collars&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="Pit"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Pit&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;Pit&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Pit&lt;/Key&gt;&lt;MaxLength&gt;20&lt;/MaxLength&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column0&gt;&lt;Column1 ID="Bench"&gt;&lt;Caption&gt;Bench&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;Bench&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Bench&lt;/Key&gt;&lt;MaxLength&gt;20&lt;/MaxLength&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column1&gt;&lt;Column2 ID="ShotNo"&gt;&lt;Caption&gt;Shot No&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;ShotNo&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;ShotNo&lt;/Key&gt;&lt;MaxLength&gt;20&lt;/MaxLength&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column2&gt;&lt;Column3 ID="HoleNo"&gt;&lt;Caption&gt;Hole No&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;System.String&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;HoleNo&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;HoleNo&lt;/Key&gt;&lt;MaxLength&gt;20&lt;/MaxLength&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;83&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column3&gt;&lt;Column4 ID="SelectedOn"&gt;&lt;Caption&gt;Selected On&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;SelectedOn&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SelectedOn&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;White&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column4&gt;&lt;Column5 ID="SampleId"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;AggregateFunction&gt;ValueCount&lt;/AggregateFunction&gt;&lt;Caption&gt;Sample Id&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;SampleId&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SampleId&lt;/Key&gt;&lt;MaxLength&gt;80&lt;/MaxLength&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;156&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="SampledOn"&gt;&lt;Caption&gt;Sampled On&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;SampledOn&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SampledOn&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column6&gt;&lt;Column7 ID="SampledUser"&gt;&lt;Caption&gt;SampledUser&lt;/Caption&gt;&lt;DataMember&gt;SampledUser&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SampledUser&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column7&gt;&lt;Column8 ID="Submission"&gt;&lt;Caption&gt;Submission&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;Submission&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Submission&lt;/Key&gt;&lt;MaxLength&gt;80&lt;/MaxLength&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;214&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column8&gt;&lt;Column9 ID="Instructions"&gt;&lt;Caption&gt;Instructions&lt;/Caption&gt;&lt;DataMember&gt;Instructions&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Instructions&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column9&gt;&lt;Column10 ID="SubmittedOn"&gt;&lt;Caption&gt;Submitted On&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;SubmittedOn&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SubmittedOn&lt;/Key&gt;&lt;MaxLength&gt;55&lt;/MaxLength&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column10&gt;&lt;Column11 ID="SubmittedUser"&gt;&lt;Caption&gt;SubmittedUser&lt;/Caption&gt;&lt;DataMember&gt;SubmittedUser&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SubmittedUser&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column11&gt;&lt;Column12 ID="DespatchedOn"&gt;&lt;Caption&gt;DespatchedOn&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;DespatchedOn&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;DespatchedOn&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Width&gt;128&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column12&gt;&lt;Column13 ID="DespatchedUser"&gt;&lt;Caption&gt;DespatchedUser&lt;/Caption&gt;&lt;DataMember&gt;DespatchedUser&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;DespatchedUser&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column13&gt;&lt;Column14 ID="ArrivedForPreparation"&gt;&lt;Caption&gt;Arrived For Preparation&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ArrivedForPreparation&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;ArrivedForPreparation&lt;/Key&gt;&lt;MaxLength&gt;55&lt;/MaxLength&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Width&gt;166&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column14&gt;&lt;Column15 ID="ArrivedForAnalysis"&gt;&lt;Caption&gt;Arrived For Analysis&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ArrivedForAnalysis&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;ArrivedForAnalysis&lt;/Key&gt;&lt;MaxLength&gt;55&lt;/MaxLength&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;Width&gt;169&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column15&gt;&lt;Column16 ID="ReceivedOn"&gt;&lt;AggregateFunction&gt;ValueCount&lt;/AggregateFunction&gt;&lt;Caption&gt;Received On&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ReceivedOn&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;ReceivedOn&lt;/Key&gt;&lt;MaxLength&gt;55&lt;/MaxLength&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column16&gt;&lt;Column17 ID="LogMatType"&gt;&lt;CompareTarget&gt;Text&lt;/CompareTarget&gt;&lt;Caption&gt;MatType&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogMatType&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Text&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogMatType&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column17&gt;&lt;Column18 ID="LogOtherMatType"&gt;&lt;Caption&gt;Other MatType&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogOtherMatType&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogOtherMatType&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column18&gt;&lt;Column19 ID="LogTopMatType"&gt;&lt;Caption&gt;Top MatType&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogTopMatType&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogTopMatType&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column19&gt;&lt;Column20 ID="LogBottomMatType"&gt;&lt;Caption&gt;Bottom MatType&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogBottomMatType&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogBottomMatType&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Width&gt;125&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column20&gt;&lt;Column21 ID="LogTopColour"&gt;&lt;Caption&gt;Top Colour&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogTopColour&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogTopColour&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column21&gt;&lt;Column22 ID="LogBottomColour"&gt;&lt;Caption&gt;Bottom Colour&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogBottomColour&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogBottomColour&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;Width&gt;129&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column22&gt;&lt;Column23 ID="LogReference"&gt;&lt;Caption&gt;Reference&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogReference&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogReference&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;/Column23&gt;&lt;Column24 ID="LogComments"&gt;&lt;Caption&gt;Comments&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogComments&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogComments&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;/Column24&gt;&lt;Column25 ID="LoggedOn"&gt;&lt;Caption&gt;Logged On&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LoggedOn&lt;/DataMember&gt;&lt;EditType&gt;CalendarDropDown&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LoggedOn&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;/Column25&gt;&lt;Column26 ID="LogValidatedOn"&gt;&lt;Caption&gt;Validated On&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LogValidatedOn&lt;/DataMember&gt;&lt;EditType&gt;CalendarDropDown&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LogValidatedOn&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;/Column26&gt;&lt;Column27 ID="LoggedUser"&gt;&lt;Caption&gt;Logged By&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LoggedUser&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LoggedUser&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;/Column27&gt;&lt;Column28 ID="Fe"&gt;&lt;Caption&gt;Fe&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Fe&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;Fe&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column28&gt;&lt;Column29 ID="SiO2"&gt;&lt;Caption&gt;Si O2&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;SiO2&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;SiO2&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column29&gt;&lt;Column30 ID="Al2O3"&gt;&lt;Caption&gt;Al2O3&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Al2O3&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;Al2O3&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column30&gt;&lt;Column31 ID="P"&gt;&lt;Caption&gt;P&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;P&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;P&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column31&gt;&lt;Column32 ID="S"&gt;&lt;Caption&gt;S&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;S&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;S&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column32&gt;&lt;Column33 ID="Mn"&gt;&lt;Caption&gt;Mn&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Mn&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;Mn&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;33&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column33&gt;&lt;Column34 ID="LOI"&gt;&lt;Caption&gt;LOI&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;LOI&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;LOI&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;34&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column34&gt;&lt;Column35 ID="LabJobNo"&gt;&lt;Caption&gt;LabJobNo&lt;/Caption&gt;&lt;DataMember&gt;LabJobNo&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LabJobNo&lt;/Key&gt;&lt;Position&gt;35&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column35&gt;&lt;Column36 ID="PlanEasting"&gt;&lt;Caption&gt;PlanEasting&lt;/Caption&gt;&lt;DataMember&gt;PlanEasting&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;PlanEasting&lt;/Key&gt;&lt;Position&gt;36&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column36&gt;&lt;Column37 ID="PlanNorthing"&gt;&lt;Caption&gt;PlanNorthing&lt;/Caption&gt;&lt;DataMember&gt;PlanNorthing&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;PlanNorthing&lt;/Key&gt;&lt;Position&gt;37&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column37&gt;&lt;Column38 ID="PlanElevation"&gt;&lt;Caption&gt;PlanElevation&lt;/Caption&gt;&lt;DataMember&gt;PlanElevation&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;PlanElevation&lt;/Key&gt;&lt;Position&gt;38&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column38&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;8&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="butSizings.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALmrq4CATDj/fkg1/3xEMv96QTD/eT8v/3g+Lv94Pi7/eD0u/3g9Lv94PS7/eD0t/3g9
+        Lf94PS3/eD0u/3lAL4C7sbH/897f/+7R0//qx8n/577A/+W4uv/jtLf/47O1/+Oytf/isbP/4rCy/+Gt
+        r//gq63/36qs/+Cqrf95Py//vrq6//jr6/8AAAD/8NbX/wAAAP8AAAD/AAAA/+jAwv8AAAD/577A/wAA
+        AP8AAAD/47O1/wAAAP/hrrD/eUAv/8HBwf/9+vr/AAAA//fo6f/z4OH/8dna/+/U1f/u0tP/7tHS/wAA
+        AP/sy83/6sXH/+e/wf8AAAD/5LW4/3pBMP/BwcH//////wAAAP/+/Pz/+/T1//nu7/8AAAD/AAAA//bm
+        5//15OX/89/g//DY2f/tz9H/AAAA/+jAwv98RDL/wcHB//////8AAAD//////wAAAP//////AAAA/wAA
+        AP/+/f3/AAAA//v19f8AAAD/9OLj/wAAAP/tzs//fkg1/8HBwf//////AAAA//////8AAAD//////wAA
+        AP8AAAD//////wAAAP//////AAAA//v19f8AAAD/8t3e/4BMOP/BwcH//////wAAAP//////AAAA////
+        //8AAAD/AAAA//////8AAAD//////wAAAP//////AAAA//jr6/+DUTv/wcHB//////8AAAD//////wAA
+        AP//////AAAA/wAAAP//////AAAA//////8AAAD//////wAAAP/9+fn/hlY//8HBwf//////////////
+        /////////////////////////////////////////////////////////////4hbQv/BwcGAwcHB/8HB
+        wf/BwcH/wcHB/8HBwf/BwcH/wcHB/8HBwf/BwcH/wcHB/8HBwf/BwcH/wcHB/8HBwf+JXEOAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//////////8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD/////
+        /////////////w==
+</value>
+  </data>
+  <data name="butProductId.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACzdGX/eTIi/3ItH/9sKRz/aCYa/2YlGf9lJBn/ZSQZ/2UkGf9lJBn/ZSQZ/wAA
+        AABsOycMAAAAAAAAAAAAAAAAvH1u/7Cjov+nlZX/noiH/5Z8fP+QdXT/jXBv/4xtbf+KbGv/imxr/2Uk
+        Gf8AAAAARSYZzEIkGBIAAAAAAAAAAMiKef99eXj/5djY/9rIyP9sYGD/xquq/76fnv9kTkv/jV5S/3dS
+        Sf9SJRn/SCcamUIkGP83HhTVOh8VGAAAAADQlIL/ysrK/8XDw/++ubn/t66t/66goP+llJP/oIR//5pU
+        OP9+RS7/cj4p/3U/Kv9uPCj/WTAg/0spG95YMCB905mJ/42Njf///////////4SEhP/z7e3/5tra/3pr
+        aP/Ahm7/unph/7ZxVv+0blL/rWFD/5VRNv9/RS7/gEYuf9Wfj//R0dH/0NDQ/9DQ0P/Ozs7/zMzM/8fG
+        xv++sq//06qa/9SsnP/SqJf/0KST/8aSff+3dVr8q14/ZgAAAADXo5T/m5ub////////////l5eX////
+        ////////hYWF//Dp6f/k1tb/fzYl/wAAAADOoY/5v4NrWgAAAAAAAAAA2aeZ/9mpm//aqpz/2qmb/9mn
+        mf/Xo5T/1Z6P/9KYh//PkYD/xYd2/4c7Kf8AAAAAx5N+SwAAAAAAAAAAAAAAANqqnf/ijHT/4412/+KM
+        dP/iiXL/4YVt/99/Zf/deF3/23BT/9loSf+QQS3/AAAAAAAAAAAAAAAAAAAAAAAAAADbrJ//3K6h/9yu
+        of/crqH/26yf/9qqnP/Yppj/1qKT/9Sdjf/Sl4f/0JOC/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAP//AAD//wAAAB8AAAAXAAAAAwAAAAEAAAABAAAAAwAAABcAAAAfAAAAHwAAAB8AAP//
+        AAD//////////w==
+</value>
+  </data>
+  <data name="butProductAssays.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAACTWwD/klcA/5BVAP+PUgD/jlAA/41OAP+MTQD/jEwA/4xMAP+MTAD/jEwA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAxl0A//Xhzf/y2cD/qqr//+7Mqv/sx6H/68Ob/+rAlv/qv5T/6b6S/4xM
+        AP8AAAAAAAAAAAAAAAAAAAAAAAAAAMhgAP/XvKL/17yi/6qq///XvKL/17yi/9e8ov/XvKL/17yi/9e8
+        ov+MTAD/AAAAAAAAAAAAAAAAAAAAAAAAAADLZAD/+/Lq//jr3f+qqv//89rC//DTtf/uzKr/7Meh/+vC
+        mv/qwJb/jEwA/wAAAAAAAAAAAAAAAAAAAAAAAAAAzm0M/9e8ov/XvKL/qqr//9e8ov/XvKL/17yi/9e8
+        ov/XvKL/17yi/4xNAP8AAAAAAAAAAAAAAAAAAAAAAAAAANN8Jf///////////6qq///57uL/9uPR//LZ
+        wP/w0bL/7cqn/+zFnv+NTgD/AAAAAAAAAAAAAAAAAAAAAAAAAADYiz7/17yi/9e8ov+qqv//17yi/9e8
+        ov/XvKL/17yi/9e8ov/XvKL/jU8A/wAAAAAAAAAAAAAAAAAAAAAAAAAA3ZhU////////////qqr/////
+        ///89e//+Onb//TeyP/x1Lj/7s2r/45QAP8AAAAAAAAAAAAAAAAAAAAAAAAAAOGkaP/XvKL/17yi/6qq
+        ///XvKL/17yi/9e8ov/XvKL/17yi/9e8ov+PUgD/AAAAAAAAAAAAAAAAAAAAAAAAAADkrnj/////////
+        //+qqv/////////////KYwD/x14A/8RaAP/CVgD/kFQA/wAAAAAAAAAAAAAAAAAAAAAAAAAA5rWE/9e8
+        ov/XvKL/qqr//9e8ov/XvKL/zGYA/8jBuv/Guaz/klkA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOi7
+        jv///////////6qq/////////////89uDv/Kx8P/ll8A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADpvpL///////////+qqv/////////////Rdhv/mWYA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA6b6T/+i7jv/mtYT/46tz/96dXP/ZjkL/1H0n/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA//8AAMAHAADABwAAwAcAAMAHAADABwAAwAcAAMAHAADABwAAwAcAAMAHAADADwAAwB8AAMA/
+        AADAf////////w==
+</value>
+  </data>
+  <data name="gridProductSamples_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;psm_Product_Samples&lt;/Key&gt;&lt;NewRowPosition&gt;BottomRow&lt;/NewRowPosition&gt;&lt;Caption&gt;psm_Product_Samples&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="Published"&gt;&lt;Caption&gt;Published&lt;/Caption&gt;&lt;DataMember&gt;Published&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Published&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;LimitToList&gt;False&lt;/LimitToList&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column0&gt;&lt;Column1 ID="Crusher"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Crusher&lt;/Caption&gt;&lt;DataMember&gt;Crusher&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Crusher&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;82&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column1&gt;&lt;Column2 ID="SampledOn"&gt;&lt;Caption&gt;Sampled On&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;TypeNameEmptyStringValue&gt;NULL&lt;/TypeNameEmptyStringValue&gt;&lt;EmptyStringValue /&gt;&lt;DataMember&gt;SampledOn&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;SampledOn&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;153&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column2&gt;&lt;Column3 ID="SampleDate"&gt;&lt;Caption&gt;Date&lt;/Caption&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;SampleDate&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;/Column3&gt;&lt;Column4 ID="SampleTime"&gt;&lt;Caption&gt;Time&lt;/Caption&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;HH:MM&lt;/FormatString&gt;&lt;InputMask&gt;00:00&lt;/InputMask&gt;&lt;Key&gt;SampleTime&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="Shift"&gt;&lt;Caption&gt;Shift&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;Shift&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Shift&lt;/Key&gt;&lt;MaxLength&gt;20&lt;/MaxLength&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column5&gt;&lt;Column6 ID="SampleId"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;AggregateFunction&gt;ValueCount&lt;/AggregateFunction&gt;&lt;Caption&gt;Sample Id&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;SampleId&lt;/DataMember&gt;&lt;EditType&gt;Combo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SampleId&lt;/Key&gt;&lt;MaxLength&gt;80&lt;/MaxLength&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;147&lt;/Width&gt;&lt;LimitToList&gt;False&lt;/LimitToList&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column6&gt;&lt;Column7 ID="Weightometer"&gt;&lt;Caption&gt;Weightometer&lt;/Caption&gt;&lt;DataMember&gt;Weightometer&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Weightometer&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;110&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="Tonnes"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Tonnes&lt;/Caption&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Tonnes&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column8&gt;&lt;Column9 ID="SampleBucket"&gt;&lt;Caption&gt;Sample Bucket&lt;/Caption&gt;&lt;DataTypeCode&gt;Int32&lt;/DataTypeCode&gt;&lt;DataMember&gt;SampleBucket&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SampleBucket&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Width&gt;84&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="StackerPosition"&gt;&lt;Caption&gt;Stacker Position&lt;/Caption&gt;&lt;DataMember&gt;StackerPosition&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;StackerPosition&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Width&gt;91&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="PrimaryFrom"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;Caption&gt;Primary Finger&lt;/Caption&gt;&lt;DataMember&gt;PrimaryFrom&lt;/DataMember&gt;&lt;EditType&gt;Combo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;PrimaryFrom&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Width&gt;132&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column11&gt;&lt;Column12 ID="PrimaryScoops"&gt;&lt;Caption&gt;Primary Buckets&lt;/Caption&gt;&lt;DataMember&gt;PrimaryScoops&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;PrimaryScoops&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Width&gt;86&lt;/Width&gt;&lt;DefaultValue&gt;1&lt;/DefaultValue&gt;&lt;DefaultValueType&gt;System.Int32&lt;/DefaultValueType&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column12&gt;&lt;Column13 ID="SecondaryFrom"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;Caption&gt;Secondary Finger&lt;/Caption&gt;&lt;DataMember&gt;SecondaryFrom&lt;/DataMember&gt;&lt;EditType&gt;Combo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SecondaryFrom&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Width&gt;132&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column13&gt;&lt;Column14 ID="SecondaryScoops"&gt;&lt;Caption&gt;Secondary Buckets&lt;/Caption&gt;&lt;DataMember&gt;SecondaryScoops&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SecondaryScoops&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Width&gt;79&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column14&gt;&lt;Column15 ID="Finger3From"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;Caption&gt;Finger3From&lt;/Caption&gt;&lt;DataMember&gt;Finger3From&lt;/DataMember&gt;&lt;EditType&gt;Combo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Finger3From&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column15&gt;&lt;Column16 ID="Finger3Scoops"&gt;&lt;Caption&gt;Finger3Scoops&lt;/Caption&gt;&lt;DataMember&gt;Finger3Scoops&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Finger3Scoops&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column16&gt;&lt;Column17 ID="Finger4From"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;Caption&gt;Finger4From&lt;/Caption&gt;&lt;DataMember&gt;Finger4From&lt;/DataMember&gt;&lt;EditType&gt;Combo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Finger4From&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column17&gt;&lt;Column18 ID="Finger4Scoops"&gt;&lt;Caption&gt;Finger4Scoops&lt;/Caption&gt;&lt;DataMember&gt;Finger4Scoops&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Finger4Scoops&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column18&gt;&lt;Column19 ID="Finger5From"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;Caption&gt;Finger5From&lt;/Caption&gt;&lt;DataMember&gt;Finger5From&lt;/DataMember&gt;&lt;EditType&gt;Combo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Finger5From&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column19&gt;&lt;Column20 ID="Finger5Scoops"&gt;&lt;Caption&gt;Finger5Scoops&lt;/Caption&gt;&lt;DataMember&gt;Finger5Scoops&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Finger5Scoops&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column20&gt;&lt;Column21 ID="Finger6From"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;Caption&gt;Finger6From&lt;/Caption&gt;&lt;DataMember&gt;Finger6From&lt;/DataMember&gt;&lt;EditType&gt;Combo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Finger6From&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column21&gt;&lt;Column22 ID="Finger6Scoops"&gt;&lt;Caption&gt;Finger6Scoops&lt;/Caption&gt;&lt;DataMember&gt;Finger6Scoops&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Finger6Scoops&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column22&gt;&lt;Column23 ID="To"&gt;&lt;CharacterCasing&gt;Upper&lt;/CharacterCasing&gt;&lt;Caption&gt;Product Stockpile&lt;/Caption&gt;&lt;DataMember&gt;To&lt;/DataMember&gt;&lt;EditType&gt;Combo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;To&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;Width&gt;144&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column23&gt;&lt;Column24 ID="Comments"&gt;&lt;Caption&gt;Comments&lt;/Caption&gt;&lt;DataMember&gt;Comments&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Comments&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;/Column24&gt;&lt;Column25 ID="Submission"&gt;&lt;Caption&gt;Submission&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;Submission&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Submission&lt;/Key&gt;&lt;MaxLength&gt;80&lt;/MaxLength&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;Width&gt;189&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column25&gt;&lt;Column26 ID="Instructions"&gt;&lt;Caption&gt;Instructions&lt;/Caption&gt;&lt;DataMember&gt;Instructions&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;Instructions&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column26&gt;&lt;Column27 ID="SubmittedOn"&gt;&lt;Caption&gt;Submitted On&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;SubmittedOn&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;SubmittedOn&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column27&gt;&lt;Column28 ID="SubmittedUser"&gt;&lt;Caption&gt;SubmittedUser&lt;/Caption&gt;&lt;DataMember&gt;SubmittedUser&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;SubmittedUser&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column28&gt;&lt;Column29 ID="DespatchedOn"&gt;&lt;Caption&gt;Despatched On&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;DespatchedOn&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;DespatchedOn&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column29&gt;&lt;Column30 ID="DespatchedUser"&gt;&lt;Caption&gt;DespatchedUser&lt;/Caption&gt;&lt;DataMember&gt;DespatchedUser&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;DespatchedUser&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column30&gt;&lt;Column31 ID="ArrivedForPreparation"&gt;&lt;Caption&gt;Arrived For Preparation&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ArrivedForPreparation&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;ArrivedForPreparation&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column31&gt;&lt;Column32 ID="ArrivedForAnalysis"&gt;&lt;Caption&gt;Arrived For Analysis&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ArrivedForAnalysis&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;ArrivedForAnalysis&lt;/Key&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column32&gt;&lt;Column33 ID="ReceivedOn"&gt;&lt;AggregateFunction&gt;ValueCount&lt;/AggregateFunction&gt;&lt;Caption&gt;Received On&lt;/Caption&gt;&lt;DataTypeCode&gt;DateTime&lt;/DataTypeCode&gt;&lt;DataMember&gt;ReceivedOn&lt;/DataMember&gt;&lt;DefaultGroupInterval&gt;Date&lt;/DefaultGroupInterval&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;d&lt;/FormatString&gt;&lt;Key&gt;ReceivedOn&lt;/Key&gt;&lt;Position&gt;33&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column33&gt;&lt;Column34 ID="Fe"&gt;&lt;Caption&gt;Fe&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Fe&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;Fe&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;34&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column34&gt;&lt;Column35 ID="SiO2"&gt;&lt;Caption&gt;Si O2&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;SiO2&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;SiO2&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;35&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column35&gt;&lt;Column36 ID="Al2O3"&gt;&lt;Caption&gt;Al2O3&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Al2O3&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;Al2O3&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;36&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column36&gt;&lt;Column37 ID="P"&gt;&lt;Caption&gt;P&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;P&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;P&lt;/Key&gt;&lt;Position&gt;37&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column37&gt;&lt;Column38 ID="S"&gt;&lt;Caption&gt;S&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;S&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;S&lt;/Key&gt;&lt;Position&gt;38&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column38&gt;&lt;Column39 ID="Mn"&gt;&lt;Caption&gt;Mn&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Mn&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;Mn&lt;/Key&gt;&lt;Position&gt;39&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column39&gt;&lt;Column40 ID="LOI"&gt;&lt;Caption&gt;LOI&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;LOI&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;LOI&lt;/Key&gt;&lt;Position&gt;40&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column40&gt;&lt;Column41 ID="LabJobNo"&gt;&lt;Caption&gt;Lab Job No&lt;/Caption&gt;&lt;DataTypeCode&gt;String&lt;/DataTypeCode&gt;&lt;DataMember&gt;LabJobNo&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;LabJobNo&lt;/Key&gt;&lt;MaxLength&gt;80&lt;/MaxLength&gt;&lt;Position&gt;41&lt;/Position&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column41&gt;&lt;Column42 ID="TotalMass"&gt;&lt;Caption&gt;Total Mass&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;TotalMass&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;Key&gt;TotalMass&lt;/Key&gt;&lt;Position&gt;42&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column42&gt;&lt;Column43 ID="12_5mm"&gt;&lt;Caption&gt;12.5mm&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Size12_5mm&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;12_5mm&lt;/Key&gt;&lt;Position&gt;43&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column43&gt;&lt;Column44 ID="10_0_12_5mm"&gt;&lt;Caption&gt;10.0 - 12.5mm&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Size10_0_12_5mm&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;10_0_12_5mm&lt;/Key&gt;&lt;Position&gt;44&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column44&gt;&lt;Column45 ID="9_5_10_0mm"&gt;&lt;Caption&gt;9.5 - 10.0mm&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Size9_5_10_0mm&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;9_5_10_0mm&lt;/Key&gt;&lt;Position&gt;45&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column45&gt;&lt;Column46 ID="6_7_9_5mm"&gt;&lt;Caption&gt;6.7 - 9.5mm&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Size6_7_9_5mm&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;6_7_9_5mm&lt;/Key&gt;&lt;Position&gt;46&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column46&gt;&lt;Column47 ID="0_5_6_7mm"&gt;&lt;Caption&gt;0.5 - 6.7mm&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Size0_5_6_7mm&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;0_5_6_7mm&lt;/Key&gt;&lt;Position&gt;47&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column47&gt;&lt;Column48 ID="0_0_0_5mm"&gt;&lt;Caption&gt;0.0 - 0.5mm&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Size0_0_0_5mm&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;0_0_0_5mm&lt;/Key&gt;&lt;Position&gt;48&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column48&gt;&lt;Column49 ID="40mm"&gt;&lt;Caption&gt;+40mm&lt;/Caption&gt;&lt;DataMember&gt;Size40mm&lt;/DataMember&gt;&lt;DefaultGroupFormatString&gt;##0.##&lt;/DefaultGroupFormatString&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;40mm&lt;/Key&gt;&lt;Position&gt;49&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column49&gt;&lt;Column50 ID="6_3_40mm"&gt;&lt;Caption&gt;6.3 - 40mm&lt;/Caption&gt;&lt;DataMember&gt;Size6_3_40mm&lt;/DataMember&gt;&lt;DefaultGroupFormatString&gt;##0.##&lt;/DefaultGroupFormatString&gt;&lt;DefaultGroupPrefix&gt;6.3 - 40mm:&lt;/DefaultGroupPrefix&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;6_3_40mm&lt;/Key&gt;&lt;Position&gt;50&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column50&gt;&lt;Column51 ID="0_0_6_3mm"&gt;&lt;Caption&gt;0.0 - 6.3mm&lt;/Caption&gt;&lt;DataMember&gt;Size0_0_6_3mm&lt;/DataMember&gt;&lt;DefaultGroupPrefix&gt;0.0 - 6.3mm:&lt;/DefaultGroupPrefix&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;0_0_6_3mm&lt;/Key&gt;&lt;Position&gt;51&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column51&gt;&lt;Column52 ID="Moisture"&gt;&lt;Caption&gt;Moisture&lt;/Caption&gt;&lt;DataTypeCode&gt;Single&lt;/DataTypeCode&gt;&lt;DataMember&gt;Moisture&lt;/DataMember&gt;&lt;FilterEditType&gt;TextBox&lt;/FilterEditType&gt;&lt;FormatString&gt;##0.##&lt;/FormatString&gt;&lt;Key&gt;Moisture&lt;/Key&gt;&lt;Position&gt;52&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;CellStyle&gt;&lt;BackColor&gt;224, 224, 224&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column52&gt;&lt;Column53 ID="Action"&gt;&lt;Caption&gt;Action&lt;/Caption&gt;&lt;DataMember&gt;Action&lt;/DataMember&gt;&lt;EditType&gt;DropDownList&lt;/EditType&gt;&lt;Key&gt;Action&lt;/Key&gt;&lt;Position&gt;53&lt;/Position&gt;&lt;Width&gt;58&lt;/Width&gt;&lt;HasValueList&gt;True&lt;/HasValueList&gt;&lt;/Column53&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;48&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="butProductChainOfCustofy.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAABILAAASCwAAAAAAAAAA
+        AAAAAAAAAAAAAIpYOP+BTzL/fEku/3hFLP92Qyr/AAAAAAAAAAAAAAAAf0ww/3xJL/94RSv/dUIp/wAA
+        AAAAAAAAAAAAAJ5tRv+vlIj/qYyA/6WGe/+ffnT/mHVr/39MMP+ATjH/hVQ1/6KCeP+ig3j/nHtw/5Jt
+        Y/93RCv/AAAAALaHV//Nva//dkof/3RIHv+HYUD/q5J+/2xAGv9pPhn/aj4a/2xBG/+skn//lnhg/5Bx
+        W/+FZFD/mndt/4BOMf/DnHT/3NDD/4lgM//gyLb/17io/5t/Yf/49ef/+OfX//vby//v17//gVQl//7+
+        /v/28vL/mHtj/7GXi/+QXzz/zq+O/+Pa0P+gf1v/l3JL/6WFZP/Lu6b/oIRl/6OIa/+njXH/qZB0/9DB
+        r/+Ubkb/i2I3/4BTI//Jt6n/o3RK/6KTgxXWvKH/59/W/+Tb0v/i2M3/4NfM/+DXzP/MrIn/0LKS/9K1
+        l//l3dP/49rQ/+DWy//c0cT/uo5f/wAAAACpmIZLoGcs/9jApf/WvKH/07aY/9Cykv/Or47/P614/wC4
+        e/8Aunf/176j/9S5nP/PsI//x6R+/wAAAAAAAAAApoxzz5RRC//Dfzn/5ZZN/72aXP9piln/j6Zm/7vC
+        dv95tXH/kq5o/7uPSv+4bir/kVQW/76uncIAAAAAAAAAAI5qRfmKSAX/uG4o/3NvRf9QcFr/loRO/8mu
+        Zv/Num//36xh/+6UTf/Oezf/pmQh/4RFCv+zmIDnAAAAAAAAAACNZ0XwgzoA/3pUGv8PbWb/LH1l/5yB
+        PP+QhET/1pJL/9qOSP/BfDj/qWkm/5FREf9zQQj/pqCF2wAAAAAAAAAAooNr+3ktAP9GUSn/AnCG/wWK
+        c/8AjEj/D45Q/5luL/++aif/omMi/45TE/+FPQH/XFIV/566o+sAAAAAAAAAAM29s857Ngj/NVs//xF9
+        nv8hoJf/GKxn/xeqZP9Di0n/jFIR/4tLCP+AQgH/eDMA/2dzRf/I2NHAAAAAAAAAAADg394ulGI902RX
+        Jv9Nn6n/Rrqs/0DCbv9Vvmj/YuKb/1qDNP+OUwD/mlAE/2pQFf+Poous5efrHQAAAAAAAAAAAAAAAJx5
+        Xjd+VSTYda2e/3zqw/+H4YT/q8Zm/7Dolv+4tVj/wIw6/5NzM/9ie02rl7KiDgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAclsyOFqkidGMwZf/vc2Q/97os//06Ln/3r6S/6eMXv90gl2xXYdgDgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABim4EeiYpueqiQduOnrZTzyLes86WSfcyMelxLfZJ3FgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAwcP//4AB//8AAP//AAD//wAA//+AAf//gAP//wAD//8AA///AAP//wAD//8AA///gAf//8AP
+        ///gH///+H///w==
+</value>
+  </data>
+  <metadata name="samples.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

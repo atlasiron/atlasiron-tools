@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AtlasReportAdministrator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConfigurationFilename" Type="System.String" Scope="User">
+      <Value Profile="(Default)">config.xml</Value>
+    </Setting>
+    <Setting Name="Operation" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ConfigurationDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="iHubPendingDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\per-pdms\iHub\Pending</Value>
+    </Setting>
+    <Setting Name="iHubProcessedDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\per-pdms\iHub\Processed</Value>
+    </Setting>
+    <Setting Name="iHubProcessingDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\per-pdms\iHub\Processing</Value>
+    </Setting>
+    <Setting Name="iHubErrorDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\per-pdms\iHub\Error</Value>
+    </Setting>
+    <Setting Name="FirstInstallSetup" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

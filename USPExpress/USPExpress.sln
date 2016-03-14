@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USPExpress", "USPExpress.csproj", "{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = USPExpress.csproj
+		SccProjectName0 = \u0022$/USP/USPExpress.Pro/src.source_code_license\u0022,\u0020MVWBAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		TIME_TRIAL Release = TIME_TRIAL Release
+		Trial Release = Trial Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}.Debug.ActiveCfg = Debug|.NET
+		{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}.Debug.Build.0 = Debug|.NET
+		{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}.Release.ActiveCfg = Release|.NET
+		{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}.Release.Build.0 = Release|.NET
+		{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}.TIME_TRIAL Release.ActiveCfg = TIME_TRIAL Release|.NET
+		{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}.TIME_TRIAL Release.Build.0 = TIME_TRIAL Release|.NET
+		{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}.Trial Release.ActiveCfg = Trial Release|.NET
+		{E9F0B90C-C935-4956-B7B3-0E18F273E2E9}.Trial Release.Build.0 = Trial Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner Solution Properties) = postSolution
+	EndGlobalSection
+	GlobalSection(DevPartner) = postSolution
+	EndGlobalSection
+EndGlobal

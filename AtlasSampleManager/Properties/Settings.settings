@@ -1,0 +1,112 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AtlasSampleManager.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AtlasGradeControlDatabase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=.;Database=Atlas_PRODGCV_WOD;Trusted_Connection=True;</Value>
+    </Setting>
+    <Setting Name="AtlasOperation" Type="System.String" Scope="User">
+      <Value Profile="(Default)">???</Value>
+    </Setting>
+    <Setting Name="Laboratory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Intertek</Value>
+    </Setting>
+    <Setting Name="AtlasCompany" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Atlas</Value>
+    </Setting>
+    <Setting Name="AtlasSubmissionBSNameSuffix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ATLAS IRON PDO_BS_</Value>
+    </Setting>
+    <Setting Name="AtlasSubmissionPSNameSuffix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ATLAS IRON PDO_PS_</Value>
+    </Setting>
+    <Setting Name="BSSubmissionDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Home\Clients\ati005\data\Samples\Blastholes\Submissions</Value>
+    </Setting>
+    <Setting Name="BSResultsDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Home\Clients\ati005\data\Samples\Blastholes\GeochemicalResults</Value>
+    </Setting>
+    <Setting Name="BSAcceptedResultsDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Home\Clients\ati005\data\Samples\Blastholes\AcceptedResults</Value>
+    </Setting>
+    <Setting Name="PSSubmissionDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Home\Clients\ati005\data\Samples\Product\Submissions</Value>
+    </Setting>
+    <Setting Name="PSResultsDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Home\Clients\ati005\data\Samples\Product\GeochemicalResults</Value>
+    </Setting>
+    <Setting Name="PSAcceptedResultsDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Home\Clients\ati005\data\Samples\Product\AcceptedResults</Value>
+    </Setting>
+    <Setting Name="LaboratoryEmailList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Home\Clients\ati005\data\Samples\Blastholes\ShotSampling</Value>
+    </Setting>
+    <Setting Name="AtlasProdGCVConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.;Initial Catalog=AtlasProdGCV;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.;Initial Catalog=AtlasProdGCV;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="PSChangeStockpileSampleType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CH</Value>
+    </Setting>
+    <Setting Name="BSPendingShotSampling" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Home\Clients\ati005\data\Samples\Blastholes\ShotSampling</Value>
+    </Setting>
+    <Setting Name="iHubPendingDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\per-pdms\iHub\Pending</Value>
+    </Setting>
+    <Setting Name="iHubProcessedDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\per-pdms\iHub\Processed</Value>
+    </Setting>
+    <Setting Name="iHubProcessingDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\per-pdms\iHub\Processing</Value>
+    </Setting>
+    <Setting Name="iHubErrorDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\per-pdms\iHub\Error</Value>
+    </Setting>
+    <Setting Name="TempDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\temp\</Value>
+    </Setting>
+    <Setting Name="AtlasMinemarketLinkDatabase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=per10dc01\\atlasiron;Database=Atlas_PRODGCV_WOD;Trusted_Connection=False;user=gcv;password=praxis666!</Value>
+    </Setting>
+    <Setting Name="PSSttartOfShiftStockpileSampleType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CS</Value>
+    </Setting>
+    <Setting Name="PSEndOfShiftStockpileSampleType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CE</Value>
+    </Setting>
+    <Setting Name="PSShiftTimeOffset" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ConfigDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">W:\12_Daily_Report\Sample Manager</Value>
+    </Setting>
+    <Setting Name="Atlas_PRODGCV_WODConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=WOD-FS01;Initial Catalog=Atlas_PRODGCV_WOD;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=WOD-FS01;Initial Catalog=Atlas_PRODGCV_WOD;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="CrusherStreams" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Main&lt;/string&gt;
+  &lt;string&gt;Auxillary&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Atlas_PRODGCV_WODConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.;Initial Catalog=Atlas_PRODGCV_WOD;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.;Initial Catalog=Atlas_PRODGCV_WOD;Integrated Security=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
